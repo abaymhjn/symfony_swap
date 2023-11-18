@@ -18,22 +18,22 @@ class History
     private $id;
 
     /**
-     * @ORM\Column(type="integer", name="first_in_value")
+     * @ORM\Column(type="integer", name="firstIn")
      */
     private $firstIn;
 
     /**
-     * @ORM\Column(type="integer", name="second_in_value")
+     * @ORM\Column(type="integer", name="secondIn")
      */
     private $secondIn;
 
     /**
-     * @ORM\Column(type="integer", name="first_out_value")
+     * @ORM\Column(type="integer", name="firstOut")
      */
     private $firstOut;
 
     /**
-     * @ORM\Column(type="integer", name="second_out_value")
+     * @ORM\Column(type="integer", name="secondOut")
      */
     private $secondOut;
 
