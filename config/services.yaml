@@ -6,6 +6,9 @@
 parameters:
 
 services:
+    Symfony\Component\Serializer\Normalizer\ObjectNormalizer: ~
+    Symfony\Component\Serializer\Normalizer\ArrayDenormalizer: ~
+    Symfony\Component\Serializer\Normalizer\GetSetMethodNormalizer: ~
     # default configuration for services in *this* file
     _defaults:
         autowire: true      # Automatically injects dependencies in your services.
